@@ -1,0 +1,35 @@
+.principal{
+    margin-left: 5%;
+    margin-right:5%;
+    margin-bottom:2%;
+    flex: 1;
+    padding: 25px;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.topo {
+    background-color: lightblue;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.botton {
+    background-color: lightsalmon;
+    height: 120px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
